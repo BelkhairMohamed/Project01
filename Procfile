@@ -1,1 +1,1 @@
-web: cd backend && php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8080
+web: cd backend && php artisan_migrate.php && php artisan serve --host=0.0.0.0 --port=8080
